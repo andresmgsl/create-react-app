@@ -6,7 +6,7 @@
   "scripts": {
     "build": "cd packages/react-scripts && node bin/react-scripts.js build",
     "changelog": "lerna-changelog",
-    "create-react-app": "node tasks/cra.js",
+    "aluxion-create-app": "node tasks/cra.js",
     "e2e": "tasks/e2e-simple.sh",
     "e2e:docker": "tasks/local-test.sh",
     "postinstall": "cd packages/react-error-overlay/ && yarn build:prod",
@@ -51,5 +51,8 @@
     "yarn.lock": [
       "git rm --cached"
     ]
+  },
+  "dependencies": {
+    "webpack": "^4.41.0"
   }
 }

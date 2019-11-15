@@ -9,7 +9,7 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'Create React App', // Title for your website.
+  title: 'Create React App - Aluxion', // Title for your website.
   tagline: 'Set up a modern web app by running one command.',
   // For github.io type URLs, you would set the url and baseUrl like:
   url: 'https://create-react-app.dev',

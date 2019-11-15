@@ -237,6 +237,11 @@ module.exports = function(
 
   console.log();
   console.log(`Success! Created ${appName} at ${appPath}`);
+
+  // CUSTOM PART FOR ALUXION
+  console.log(chalk.red('ALUXION ENTRÓ AL JUEGO: '));
+  // END CUSTOM PART FOR ALUXION
+
   console.log('Inside that directory, you can run several commands:');
   console.log();
   console.log(chalk.cyan(`  ${displayedCommand} start`));
