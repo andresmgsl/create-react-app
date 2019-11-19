@@ -1,11 +1,15 @@
 {
-  "name": "aluxion-react-scripts",
-  "version": "3.2.3",
+  "name": "@aluxion-react/react-scripts-basic",
+  "version": "0.0.1",
   "description": "Configuration and scripts for Create React App, improved with Aluxion standars.",
   "repository": {
     "type": "git",
     "url": "https://github.com/andresmgsl/create-react-app",
     "directory": "packages/react-scripts"
+  },
+  "author": {
+    "email": "aguerrero@aluxion.com",
+    "name": "aguerrero"
   },
   "license": "MIT",
   "engines": {
