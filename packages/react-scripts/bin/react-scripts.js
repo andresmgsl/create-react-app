@@ -55,4 +55,6 @@ if (['build', 'eject', 'start', 'test'].includes(script)) {
   console.log(
     'See: https://facebook.github.io/create-react-app/docs/updating-to-new-releases'
   );
+  console.log('--------------------------------------------------------------')
+  console.log('Keep in mind this is a custom Create React App script, if something is not working well, please contact aguerrero@aluxion.com')
 }

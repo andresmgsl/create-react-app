@@ -101,6 +101,9 @@ module.exports = function(
     eject: 'react-scripts eject',
   };
 
+  // Adding aluxion custom script rules
+
+
   // Setup the eslint config
   appPackage.eslintConfig = {
     extends: 'react-app',
@@ -239,7 +242,10 @@ module.exports = function(
   console.log(`Success! Created ${appName} at ${appPath}`);
 
   // CUSTOM PART FOR ALUXION
-  console.log(chalk.red('ALUXION ENTRÓ AL JUEGO: '));
+  console.log(chalk.red('--------------------------------------------------'));
+  console.log(chalk.red('Custom CRA  - Developed and maintained by Aluxion'));
+  console.log(chalk.red('--------------------------------------------------'));
+  
   // END CUSTOM PART FOR ALUXION
 
   console.log('Inside that directory, you can run several commands:');

@@ -1,44 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Latest Version](https://img.shields.io/badge/Version-0.0.1-blue.svg)](https://lightpay-pagador-develop.now.sh)
 
-## Available Scripts
+<img src="https://www.aluxion.com/img/logo-black.svg" align="right" width="35" height="35" />
 
-In the project directory, you can run:
+# LigthPay - Pagador
 
-### `npm start`
+A continuación se detalla un poco la estructura del proyecto, explicando brevemente las carpetas mas importantes que conforman al mismo.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## División princpal de carpeta.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Es recomendable evitar, en lo posible, editar la estructura principal que se presenta a continuación
 
-### `npm test`
+### Root.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `/public` : Contiene los archivos públicos que utiliza el navegador al hacer el boostrap de la apliación.
+- `/src` : Contiene el core (archivos principales) de la aplicación.
+- `/node_modules` : Contiene los paquetes de terceros instalados a través del gestor de paquetes NPM. No viene incluida por defecto en el repositorio, requiere de la ejecuación del comando `npm i` para su creación.
 
-### `npm run build`
+### carpeta /src
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `/assets` : Contiene recursos estéticos e imágenes, los cuales son usados a través de toda la aplicación. Es aquí donde se debe coloclar cualquier contenido multimedia.
+- `/containers` : Otra de las carpetas principales, contiene cada una de las vistas que conforma la aplicación. Dividiendose principalmente en rutas privadas y públicas.
+- `/context` : Aquí se tiene cada uno de los contexts que se usan en la aplicación. El context es un concepto propio de React, para más información visitar la documentación oficial.
+- `/hooks` : Contiene todos los hooks que se utilizan globalmente en toda la aplicación con aplicaciones externas.
+- `/utils` : Contiene funciones y otras utilidades desarrolladas para realizar tareas repetitivas y concretas a lo largo de toda la aplicación.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## FAQ
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- No sé qué hacer para correr la app.
 
-### `npm run eject`
+Te recomendamos que abras el archivo package.json. El atributo script es un objecto que contiene cada una de las posibles acciones que puedes hacer para ejecutar la aplicacion, usando el comando `npm run-script {action}`. Un ejemplo sería `npm run-script build`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- *Hago `npm run-script start` pero no me corre la aplicación*
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Recuerda que debes hacer `npm i` y asegurarte que la instalación fue correcta
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- *Hago `npm i` pero no me dice que npm no fue encontrado*
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Recuerda que debes tener instalado Node en su versión actual LTS (2019)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para más información, por favor contactar a mdiaz@aluxion.com

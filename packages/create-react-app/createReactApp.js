@@ -6,7 +6,7 @@
  */
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//   /!\ DO NOT MODIFY THIS FILE /!\
+//   /!\ DO NOT MODIFY THIS FILE /!\ -- ¡¡Unless you know what to do!!
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 // create-react-app is installed globally on people's computers. This means
@@ -132,7 +132,10 @@ if (program.info) {
         System: ['OS', 'CPU'],
         Binaries: ['Node', 'npm', 'Yarn'],
         Browsers: ['Chrome', 'Edge', 'Internet Explorer', 'Firefox', 'Safari'],
-        npmPackages: ['react', 'react-dom', 'react-scripts'],
+        npmPackages: [
+          'react', 'react-dom', 'react-scripts', 'react-redux', 'react-router-dom', 
+          'rxjs', 
+          'axios', 'date-fns', 'styled-components'],
         npmGlobalPackages: ['create-react-app'],
       },
       {
@@ -202,7 +205,7 @@ function createApp(
     process.exit(1);
   }
 
-  console.log(`Creating a new React app in ${chalk.green(root)}.`);
+  console.log(`Creating a new Custom Aluxion React app in ${chalk.green(root)}.`);
   console.log();
 
   const packageJson = {
@@ -390,6 +393,13 @@ function run(
         '@types/node',
         '@types/react',
         '@types/react-dom',
+        '@types/react-redux',
+        '@types/react-router-dom',
+        '@types/styled-components',
+        'node-sass',
+        'node-sass-chokidar',
+        'prettier',
+        'husky',
         // TODO: get version of Jest being used instead of installing latest
         '@types/jest',
         'typescript'
