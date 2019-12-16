@@ -30,12 +30,12 @@ Es recomendable evitar, en lo posible, editar la estructura principal que se pre
 
 Te recomendamos que abras el archivo package.json. El atributo script es un objecto que contiene cada una de las posibles acciones que puedes hacer para ejecutar la aplicacion, usando el comando `npm run-script {action}`. Un ejemplo sería `npm run-script build`.
 
-- *Hago `npm run-script start` pero no me corre la aplicación*
+- _Hago `npm run-script start` pero no me corre la aplicación_
 
 Recuerda que debes hacer `npm i` y asegurarte que la instalación fue correcta
 
-- *Hago `npm i` pero no me dice que npm no fue encontrado*
+- _Hago `npm i` pero no me dice que npm no fue encontrado_
 
 Recuerda que debes tener instalado Node en su versión actual LTS (2019)
 
-Para más información, por favor contactar a mdiaz@aluxion.com
+Para más información, por favor contactar a aguerrero@aluxion.com
