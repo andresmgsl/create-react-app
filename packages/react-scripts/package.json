@@ -1,6 +1,6 @@
 {
   "name": "@aluxion-react/react-scripts-basic",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Configuration and scripts for Create React App, improved with Aluxion standars.",
   "repository": {
     "type": "git",
